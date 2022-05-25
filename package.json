@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/**/* --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --project ./tsconfig.json",
+    "pretest": "ts-node -T src/prepare-test",
+    "test": "ts-node -T src/concurrency-test"
   },
   "repository": {
     "type": "git",
