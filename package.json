@@ -1,0 +1,33 @@
+{
+  "name": "dynamodb-conditionalupdate-concurrencytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/* --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayJayDee/DynamoDb-ConditionalUpdate-ConcurrencyTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayJayDee/DynamoDb-ConditionalUpdate-ConcurrencyTest/issues"
+  },
+  "homepage": "https://github.com/JayJayDee/DynamoDb-ConditionalUpdate-ConcurrencyTest#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1142.0",
+    "dotenv": "^16.0.1",
+    "eslint-plugin-jest": "^26.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
